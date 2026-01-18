@@ -1,4 +1,4 @@
-from cube import cube_calculator
+from program import cube
 def test_cube_():
     excepted_output = (
         "Enter a number: 2 \n"
