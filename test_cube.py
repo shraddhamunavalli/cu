@@ -1,5 +1,5 @@
 from cube import cube_calculator
-def test_cube_calculator():
+def test_cube_():
     excepted_output = (
         "Enter a number: 2 \n"
         "cube = num ** 3\n"
