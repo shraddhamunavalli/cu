@@ -5,4 +5,4 @@ def test_cube():
         "cube = num ** 3\n"
         "print(f\"Cube of {num} is {cube}\")\n"
     )
-    assert cube_calculator.main("2") == excepted_output
+    assert cube.main("2") == excepted_output
