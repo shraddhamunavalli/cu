@@ -1,9 +1,8 @@
-# cube_calculator.py
-
-def main():
-    num = float(input("Enter a number: "))
+def main(num):
+    num = float(num)
     cube = num ** 3
-    print(f"Cube of {num} is {cube}")
+    return f"Cube of {num} is {cube}"
 
 if __name__ == "__main__":
-    main()
+    n = input("Enter a number: ")
+    print(main(n))
